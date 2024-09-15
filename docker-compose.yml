@@ -1,0 +1,7 @@
+version: "3"
+services:
+  movies: 
+    image: rakesh1923/tomcaversion1
+    ports:
+      - 8081:8080
+
