@@ -18,7 +18,7 @@ copy tomcat-users.xml /root/tomcat/conf
 # copying the  context.xml to  /root/tomcat/webapps/manager/META-INF
 copy  context.xml /root/tomcat/webapps/manager/META-INF
 #copying the snapshot file to webapps
-copy myweb-8.3.2-SNAPSHOT.war
+copy myweb-8.3.2-SNAPSHOT.war /root/tomcat/webapps
 # installing java to run the tomcat
 RUN yum install -y java-11-amazon-corretto
 # Expose the port Tomcat listens on
